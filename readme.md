@@ -1,6 +1,8 @@
 # TOURISM ANALYTICS FOR METRO MANILA SYSTEM (TAMMS)
 
-TAMMS is a system output for System output for System Analysis and Design Course (TUP-T 2020)
+TAMMS is a system output for System output for System Analysis and Design Course (TUP-T 2020) using Codeigniter
+
+
 
 
 # Pages
