@@ -1,0 +1,562 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 600;
+}
+p{
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 600;
+}
+
+h1{
+font-family: 'Muli', san-serif;
+font-weight: 900;
+color:#1A3263;
+}
+
+h3{
+font-family: 'Muli', san-serif;
+font-weight: 800;
+color: #F5564E;
+}
+
+body{
+background: #E8E2DB;
+}
+
+/* ==========================HEADER============================= */
+#header nav{
+background-color: #FAB95B;
+text-transform: uppercase;
+}
+
+#header .input-group-btn{
+background-color: #F5564E;
+}
+
+#header a{
+font-family: 'Muli', san-serif;
+font-weight: 900;
+color:#1A3263;
+
+}
+
+#header img{
+width: 4%;
+} 
+
+
+@media (min-width: 990px) {
+#header li {
+display: none;
+}
+
+
+
+#header nav{
+padding: 1%;
+}
+}
+
+@media (max-width: 990px) {
+#header img{
+display: none;
+}
+
+.navbar-brand{
+display: none;
+}
+}
+
+
+/* ==============================SIDEBAR========================= */
+::-webkit-scrollbar{
+    display: none;
+}
+#sidebar{
+    min-height: 110vh;
+}
+
+#sidebar nav{
+padding-top:60px;
+margin-top: 5%;
+background-color: #1A3263;
+min-height: inherit;
+}
+
+#sidebar a {
+display: block;
+color: #E8E2DB;
+text-decoration: none;
+font-family: 'Muli', sans-serif;
+font-weight: 900;
+text-transform: uppercase;
+padding: 0 5% 0 5%;
+font-size: 1vw;
+}
+
+#sidebar img{
+width:80%;
+height: auto;
+margin:0 10% 0 10%;
+padding: 10%;
+border-radius: 50%;
+}
+
+#sidebar i{
+color:#F5564E ;
+font-size: 2vw;
+margin-right: 1%;
+padding: 2%;
+}
+
+#sidebar-menu{
+padding: 10%;
+overflow-y: scroll;
+}
+
+#user{
+padding:5%;
+}
+
+#user-name{
+margin: 10% 10% 0% 10%;
+text-align: center;
+color: #E8E2DB;
+font-size: inherit;
+}
+
+#user-name p{
+margin: 0;
+font-size: inherit;
+text-transform: uppercase;
+font-family: 'Muli', san-serif;
+font-weight: 900;
+}
+
+#user-name a{
+margin: 0;
+font-style: italic;
+font-weight: lighter;
+text-decoration: underline;
+font-size: inherit;
+color: #F5564E;
+text-transform: uppercase;
+}
+
+@media (max-width: 950px) {
+#sidebar {
+display: none;
+}
+}
+
+
+
+/* =============================MAIN======================== */
+@media (min-width: 990px) {
+
+    #main{
+    min-height:  110vh;
+    background-color:#E8E2DB;
+    }
+    .content{
+    padding: 120px 10px 10px 10px;
+    min-height: 91vh;
+    width: 100%;
+    background-color:#E8E2DB;
+    }
+
+    
+
+}     
+
+    @media (max-width: 990px) {
+    .content{
+    padding-left:25px;
+    padding-top:65px;
+    background-color:#E8E2DB;
+    min-height: 90vh;
+    }
+
+    .content-wrap{
+    padding: 5%;
+    margin-bottom: 5px;
+    }
+
+}
+
+legend{
+    font-family: 'Muli', san-serif;
+    font-weight: 900;
+    color: #1A3263;
+}
+.content img{
+    margin-bottom: 30px;
+
+}
+
+.content label{
+    color: #1A3263;
+    font-family: 'Source Sans Pro', san-serif;
+    font-weight: 600;
+    margin-right:10px ;
+}
+.content-wrap{
+padding: 1%;
+margin-bottom: 5px;
+}
+
+.content h3{
+color: #F5564E;
+font-family: 'Muli', san-serif;
+font-weight: 900;
+margin-bottom: 4%;
+font-size: 3vw;
+}
+
+.forms{
+margin-bottom: 2%;
+}
+
+.forms label{
+font-family: 'Muli', sans-serif;
+font-weight: 800;
+color: #1A3263;
+text-transform: uppercase;
+margin-bottom: -1px;
+}
+
+.button{
+margin-top: 5%;
+float: right;
+background-color: #FAB95B;
+font-family: 'Muli', sans-serif;
+font-weight: 800;
+}
+
+.button:hover{
+margin-top: 5%;
+float: right;
+background-color: #F5564E;
+font-family: 'Muli', sans-serif;
+font-weight: 800;
+}
+
+
+.button-view{
+background-color: #1A3263;
+color: #E8E2DB;
+font-family: 'Muli', sans-serif;
+font-weight: 800;
+}
+
+.button-view:hover{
+background-color: #F5564E;
+font-family: 'Muli', sans-serif;
+font-weight: 800;
+}
+
+
+
+
+/* =============================FOOTER======================== */
+#footer{
+padding: 5px;
+background: #F5564E;
+text-align: right;
+color:#E8E2DB;
+}
+
+#footer p{
+font-family: 'Source Sans Pro', sans-serif;
+font-size:10px;
+}
+
+#footer h4{
+font-family: 'Muli', sans-serif;
+font-weight: 700;
+font-size: 15px;
+}
+
+/* =============================LOGIN======================== */
+
+/* =========MOBILE=========== */
+@media (max-width: 1000px) {
+    *{
+    font-family: 'Muli', san-serif;
+    font-weight: 900;
+    }
+
+    .left-page{
+    background:#FAB95B;
+    min-height:100vh;
+    text-align: center;
+    padding-top: 20vh;
+    }
+
+    .left-page img{
+    width:15%;
+    }
+
+    .left-page h3{
+
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    color:#1A3263;
+    text-transform: uppercase;
+    font-size: 4vh;
+
+    }
+
+    .right-page{
+    width: 100%;
+    min-height: 100vh;
+    }
+
+    .login-wrapper{
+    margin-top: 10vh;
+    padding: 0 10% 0 10%;
+    }
+
+    .login-wrapper h3{
+    font-size: 10vw;
+    margin-bottom: 5vw;
+    }
+
+    .login-forms{
+    margin-bottom: 30px;
+    }
+
+    .login-forms input{
+    font-size: 5vw;
+    }
+
+    .login-forms label{
+    font-size: 5vw;
+    color: #1A3263;
+    margin-bottom: -10px;
+    }
+
+
+    .login-forms p{
+    font-size: 5vw ;
+    }
+
+    .login-forms em{
+
+    color: #F5564E;
+    margin-bottom: -1%;
+    font-size: 3vw;
+    }
+    .form-check{
+    display: none;
+    }
+    .carousel-item img{
+    margin: auto; 
+    width: 800px;
+    }
+
+    .login-button{
+    margin-top: 5%;
+    background-color: #1A3263;
+    color: #E8E2DB;
+    font-family: 'Muli', sans-serif;
+    font-weight: 800;
+    width: 80%;
+    }
+
+    .signup-wrapper{
+    padding:10vh 25% 0 25%;
+    }
+
+    .signup-wrapper h3{
+    text-align: center;
+    margin-bottom: 5vh;
+    font-size: 8vw;
+
+    }
+
+}
+
+/* =========DESKTOP=========== */
+@media (min-width: 990px) {
+
+    .left-page{
+    background:#FAB95B;
+    float: left;
+    width: 50%;
+    min-height:100vh ;
+    padding: 4%;
+    }
+
+    .left-page img{
+    width:10%;
+    }
+
+    .left-page h3{
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    color:#1A3263;
+    text-transform: uppercase;
+    font-size: 3vh;
+    }
+
+    .right-page{
+    background:#E8E2DB;
+    float:right;
+    width: 50%;
+    min-height:100vh ;
+    }
+
+    .carousel-item img{
+    width: 400px;
+    margin: auto; 
+    }
+
+    .login-wrapper{
+    padding:25%;
+    }
+
+    .login-title{
+    text-align: center;
+    margin-bottom: 2vh;
+
+    }
+    .login-forms{
+    margin-bottom: 2vh;
+    }
+
+    .login-wrapper label{
+    float: left;
+    font-family: 'Source San Pro', sans-serif;
+    font-weight: 600;
+    color: #1A3263;
+    margin-bottom: -1%;
+    }
+
+    .login-forms em{
+    color: #F5564E;
+    margin-bottom: -1%;
+    }
+
+    .login-button{
+    margin-top: 5%;
+    background-color: #1A3263;
+    color: #E8E2DB;
+    font-family: 'Muli', sans-serif;
+    font-weight: 800;
+    width: 50%;
+    }
+
+    .login-button:hover{
+    margin-top: 5%;
+    background-color: #F5564E;
+    color: #1A3263;
+    font-family: 'Muli', sans-serif;
+    font-weight: 800;
+    width: 50%;
+    }
+
+    .signup-wrapper{
+    padding:10vh 25% 0 25%;
+    }
+
+    .signup-wrapper label{
+    float: left;
+    font-family: 'Source San Pro', sans-serif;
+    font-weight: 600;
+    color: #1A3263;
+    margin-bottom: -1%;
+    }
+
+    .signup-title{
+    text-align: center;
+    margin-bottom: 2%;
+    }
+
+    .signup-button{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #1A3263;
+    color: #E8E2DB;
+    font-family: 'Muli', sans-serif;
+    font-weight: 800;
+    width: 50%;
+    } 
+}
+
+.signup-text{
+
+padding:7vh 20% 0 20%;
+align-content: center;
+}
+
+.signup-text h2{
+font-family: 'Muli', sans-serif;
+color: #F5564E;
+font-weight: 900;
+font-size: 5vh;
+margin-bottom: 20px;
+}
+
+.signup-text p{
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 600;
+color: #1A3263;
+font-size: 3vh;
+
+}
+
+.signup-text a{
+font-family: 'Muli', sans-serif;
+font-weight: 900;
+color: #F5564E;
+text-transform: uppercase;
+}
+
+.signup-text label{
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 600;
+color: #1A3263;
+font-size: 3vh;
+margin-bottom: -5px;
+}
+
+
+/* =============================TABLE======================== */
+table{
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+thead{
+background-color: #FAB95B;
+color: #1A3263;
+}   
+
+th{
+font-family: 'Mulli', sans-serif;
+}
+
+tbody{
+background-color: #1A3263;
+color: #E8E2DB;
+}
+
+tbody tr:hover{
+background-color: #F5564E;
+color: #E8E2DB;
+}
+
+table a{
+text-decoration: underline;
+color: #E8E2DB;
+}
+
+table a:hover{
+    text-decoration: none;
+    color: #1A3263;
+    }
+
+
+
