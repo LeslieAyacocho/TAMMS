@@ -8,20 +8,20 @@ TAMMS is a system output for System output for System Analysis and Design Course
 
 ## LOGIN
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/LeslieAyacocho/TAMMS/blob/master/images/pages/login.PNG)
 
 ## Register
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/LeslieAyacocho/TAMMS/blob/master/images/pages/register.PNG)
 
 
 ## Landmarks
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/LeslieAyacocho/TAMMS/blob/master/images/pages/landmarks.PNG)
 
 ## Countries
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/LeslieAyacocho/TAMMS/blob/master/images/pages/countries.PNG)
 
   
   
